@@ -8,7 +8,8 @@ function App() {
 
      {/*Rendering ProfileCard with Props */}
     <ProfileCard name="Bishal Rimal" 
-     title="Software Engineering Intern"/>
+     title="Software Engineering Intern"
+     address="KTM"/>
     </div>
   );
 }
