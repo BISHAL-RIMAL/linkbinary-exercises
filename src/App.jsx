@@ -1,6 +1,7 @@
 import React from 'react';
 import ProfileCard from './ProfileCard';
 import SimpleCounter from './SimpleCounter';
+import Form from './LoginForm';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
      {/*Rendering ProfileCard with Props */}
     <ProfileCard name="Bishal Rimal" 
      title="Software Engineering Intern"/>
-     <SimpleCounter/>
+    <SimpleCounter/>
+    <br/><Form/>
     </div>
   );
 }
